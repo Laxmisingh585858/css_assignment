@@ -1,0 +1,26 @@
+li a{
+    color: red;
+}
+h2{
+    color:black;
+    background-color: bisque;
+}
+
+
+a[href]{
+    text-decoration: none;
+    color: red;
+    
+}
+a[class="active"] {
+color: blue;
+text-decoration: underline;
+}
+a[target="_self"]
+{
+    background-color: gray;
+}
+p:last-chid::after{
+    content:".....";}
+    p:nth-child(even)::first-letter{
+        color: rgb(224, 8, 8); font-size: 50px; ;    }
